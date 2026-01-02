@@ -2,11 +2,11 @@ import random
 import time
 
 
-def getRandomDate(starDate, endDate):
-    print("Printing random date between", starDate, "and", endDate)
+def getRandomDate(startDate, endDate):
+    print("Printing random date between", startDate, "and", endDate)
     randomGenerator = random.random()
     dateFormat = '%m/%d/%Y'
-    starttime = time.mktime(time.strptime(starDate, dateFormat))
+    starttime = time.mktime(time.strptime(startDate, dateFormat))
     print(starttime)
     endtime = time.mktime(time.strptime(endDate, dateFormat))
     print(endtime)

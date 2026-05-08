@@ -19,3 +19,6 @@ def getRandomDate(startDate, endDate):
 
 
 print("Random Date = ", getRandomDate("1/1/2020", "12/12/2024"))
+#strptime= string to datetime object
+#strftime= datetime object to string
+#mktime= converting date to seconds
